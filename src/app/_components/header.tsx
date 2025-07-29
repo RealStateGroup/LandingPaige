@@ -13,7 +13,7 @@ const Header = () => {
           className="mr-4 ml-2"
           />
         </Link>
-        <Link href={""}>
+        <Link href={"https://www.tiktok.com/@mendez6735?_t=ZM-8yQUeGsCBbM&_r=1"}>
         <Image
         src={"/assets/blog/icons/tik-tok.png"}
         alt="Tik-Tok Logo"
