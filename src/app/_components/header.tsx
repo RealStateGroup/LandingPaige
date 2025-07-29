@@ -13,13 +13,13 @@ const HeaderMinimal = () => {
               Síguenos:
             </span>
             <div className="flex items-center space-x-3">
-              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+              <Link href="https://api.whatsapp.com/send?phone=50672043419&text&context=AfeiUw81ywUEpXdWQAhGlMCakOyTxvKmjjhuiKFDS96IdYNgI8_3ee1TynlsE7ysKA9sNpqyjRHIJ7n8hYncU8ihFIrnPfurVxiUbl4CZjRaH5o97LBsH0yq2uTkMUxdnluKvlhCvuwMRONcmUODFceuPA&source&app=facebook" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Image src="/assets/blog/icons/whatsapp.png" alt="WhatsApp" width={28} height={28} />
               </Link>
-              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+              <Link href="https://www.tiktok.com/@mendez6735?_t=ZM-8yQUeGsCBbM&_r=1" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Image src="/assets/blog/icons/tik-tok.png" alt="TikTok" width={28} height={28} />
               </Link>
-              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+              <Link href="https://www.instagram.com/javiermendez3101?igsh=YzljYTk1ODg3Zg==" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Image src="/assets/blog/icons/instagram.png" alt="Instagram" width={28} height={28} />
               </Link>
             </div>
