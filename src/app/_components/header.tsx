@@ -13,6 +13,24 @@ const Header = () => {
           className="mr-4 ml-2"
           />
         </Link>
+        <Link href={""}>
+        <Image
+        src={"/assets/blog/icons/tik-tok.png"}
+        alt="Tik-Tok Logo"
+        width={30}
+        height={30}
+        className="mr-4 ml-2"
+        />
+        </Link>
+        <Link href={""}>
+        <Image
+        src={"/assets/blog/icons/instagram.png"}
+        alt="Instagram Logo"
+        width={30}
+        height={30}
+        className="mr-4 ml-2"
+        />
+        </Link>
       </h2>
   );
 };
