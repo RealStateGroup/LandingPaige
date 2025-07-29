@@ -1,38 +1,33 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderMinimal = () => {
   return (
-      <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 flex items-center col dark:bg-emerald-950 p-5">
-        <Link href="https://api.whatsapp.com/send?phone=50672043419&text&context=Afcxky9pxRUrtNf1o3QutR9roEJR6618XBM6lSRAcJFdtxXfptmJI-dyxqol_WT8VlcpfReGUaMcNVUw3dRxV9dp6zC7l9-LsBdPg-AYFtCPoQKBQUtMsujAidPKZdfOZJbPXT7vBK6bHSOVQbFYsfs0Qg&source&app=facebook" className="flex item-center">
-          <Image
-          src={"/assets/blog/icons/whatsapp.png"}
-          alt="Whatsapp Logo"
-          width={30}
-          height={20}
-          className="mr-4 ml-2"
-          />
-        </Link>
-        <Link href={"https://www.tiktok.com/@mendez6735?_t=ZM-8yQUeGsCBbM&_r=1"}>
-        <Image
-        src={"/assets/blog/icons/tik-tok.png"}
-        alt="Tik-Tok Logo"
-        width={30}
-        height={30}
-        className="mr-4 ml-2"
-        />
-        </Link>
-        <Link href={""}>
-        <Image
-        src={"/assets/blog/icons/instagram.png"}
-        alt="Instagram Logo"
-        width={30}
-        height={30}
-        className="mr-4 ml-2"
-        />
-        </Link>
-      </h2>
+    <header className="dark:bg-emerald-950 bg-white py-4">
+      <div className="container mx-auto px-5">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl md:text-4xl font-bold">JRMC Real Estate</h1>
+          
+          <div className="flex items-center space-x-6">
+            <span className="text-sm text-neutral-600 dark:text-neutral-300 hidden md:block">
+              Síguenos:
+            </span>
+            <div className="flex items-center space-x-3">
+              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/assets/blog/icons/whatsapp.png" alt="WhatsApp" width={28} height={28} />
+              </Link>
+              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/assets/blog/icons/tik-tok.png" alt="TikTok" width={28} height={28} />
+              </Link>
+              <Link href="#" className="opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/assets/blog/icons/instagram.png" alt="Instagram" width={28} height={28} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 
-export default Header;
+export default HeaderMinimal;
